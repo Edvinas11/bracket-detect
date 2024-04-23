@@ -5,7 +5,7 @@
 
 using namespace std;
 
-int main(int argc, char **argv){
+int main (int argc, char **argv){
 
     // process a file
     if (argc <= 1) {
@@ -15,4 +15,3 @@ int main(int argc, char **argv){
     ifstream file(argv[1]);
 
     return 0;
-}
